@@ -1,0 +1,89 @@
+:root{
+    --color-P: rgb(158,42,43);
+    --color-S: rgb(224, 159, 62);
+    --color-A: rgb(255, 243, 176);
+    --color-X: rgb(51, 92, 103);
+    --color-Y: rgb(84, 11, 14);
+    --color-W: rgb(255, 255, 255);
+    --color-B: rgb(0, 0, 0);
+
+}
+.color-p{
+    color: var(--color-P);
+}
+.color-s{
+    color: var(--color-S);
+}
+.color-a{
+    color: var(--color-A);
+}
+.color-x{
+    color: var(--color-X);
+}
+.color-y{
+    color: var(--color-Y);
+}
+
+/* NAVBAR  */
+.navbar-custom{
+    margin: 5vh 15vh 0vh 15vh ;
+    background-color: var(--color-X);
+    backdrop-filter: blur(10px);
+    border: 5px solid var(--color-S);
+    border-radius: 10px;
+    /* color: var(--color-A) */
+    
+}
+
+.transition{
+    transition: 1s;
+}
+
+/* HEADER  */
+.customB{
+    color: var(--color-A);
+    background-color: var(--color-X);
+    border-radius: 10px;
+    border-bottom: var(--color-X);
+    border-right: var(--color-X);
+
+}
+
+.masthead{
+    height: 75vh;
+    background-color: var(--color-P);
+}
+
+.sezioneFrase{
+    height: 25vh;
+}
+
+
+/* Category  */
+
+.img-category{
+    background-color: var(--color-W);
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid var(--color-P);
+    padding: 5px;
+}
+.bg-category{
+    background: linear-gradient(0deg, rgba(255,255,255,0) 35%, rgba(224,159,62,1) 100%);
+}
+.brd-bottom{
+    border-bottom: 5px solid var(--color-P);
+}
+
+/* Sezione Numeri  */
+.boxNumbers{
+    background-color: var(--color-P);
+    border: 3px solid var(--color-S);
+    height: 120px;
+    color: var(--color-S);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
