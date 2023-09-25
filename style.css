@@ -1,12 +1,12 @@
 :root{
-    --color-P: rgb(158,42,43);
-    --color-S: rgb(224, 159, 62);
-    --color-A: rgb(255, 243, 176);
-    --color-X: rgb(51, 92, 103);
-    --color-Y: rgb(84, 11, 14);
+    --color-P: rgb(183, 209, 187);
+    --color-S: rgb(234, 203, 173);
+    --color-A: rgb(93, 160, 159);
+    --color-X: rgb(199, 209, 121);
+    --color-Y: rgb(205, 209, 35);
     --color-W: rgb(255, 255, 255);
     --color-B: rgb(0, 0, 0);
-
+    
 }
 .color-p{
     color: var(--color-P);
@@ -23,67 +23,123 @@
 .color-y{
     color: var(--color-Y);
 }
+.color-w{
+    color: var(--color-W);
+}
+.color-b{
+    color: var(--color-B);
+}
+/* fonts */
+.fontIndie{
+    font-family: 'Indie Flower', cursive !important;
+}
+.fontMarker{
+    font-family: 'Permanent Marker', cursive !important;
+}
+.fontGaegu{
+    font-family: 'Gaegu', cursive !important;
+}
 
 /* NAVBAR  */
 .navbar-custom{
     margin: 5vh 15vh 0vh 15vh ;
-    background-color: var(--color-X);
+    background-color:var(--color-S);
     backdrop-filter: blur(10px);
-    border: 5px solid var(--color-S);
-    border-radius: 10px;
-    /* color: var(--color-A) */
-    
+    border-radius: 20px;
 }
-
 .transition{
     transition: 1s;
 }
 
 /* HEADER  */
-.customB{
-    color: var(--color-A);
-    background-color: var(--color-X);
-    border-radius: 10px;
-    border-bottom: var(--color-X);
-    border-right: var(--color-X);
-
+.customButtonHeader{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+} 
+.customButtonHeader2{
+    border-color: transparent;
+    background-color: var(--color-A);
+    color: var(--color-S);
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
 }
-
-.masthead{
+.customButtonHeader2:hover {
+    transform: perspective(1px) scale3d(1.1, 1.1, 1) translateZ(0) ;
+}
+.bgHeader{
     height: 75vh;
     background-color: var(--color-P);
 }
-
 .sezioneFrase{
     height: 25vh;
 }
-
+.Mascot{
+    height: 40vh;
+    border-radius: 20px;
+}
+/* card */
+.card:hover>div>img{
+    transform: scale(1.2);
+}
+.customButtonCards{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+} 
+.customButtonCards2{
+    border-color: transparent;
+    background-color: var(--color-X);
+    color: var(--color-W);
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+.customButtonCards2:hover {
+    transform: perspective(1px) scale3d(1.1, 1.1, 1) translateZ(0) ;
+}
+.colorHeart{
+    color: var(--color-Y);
+}
+.bgNew{
+    background-color: var(--color-A);
+    color: var(--color-S);
+}
 
 /* Category  */
-
 .img-category{
     background-color: var(--color-W);
     width: 100%;
     border-radius: 50%;
-    border: 5px solid var(--color-P);
+    border: 10px solid var(--color-X);
     padding: 5px;
 }
 .bg-category{
-    background: linear-gradient(0deg, rgba(255,255,255,0) 35%, rgba(224,159,62,1) 100%);
-}
-.brd-bottom{
-    border-bottom: 5px solid var(--color-P);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 35%, rgba(183, 209, 187,1) 100%);
 }
 
 /* Sezione Numeri  */
 .boxNumbers{
     background-color: var(--color-P);
-    border: 3px solid var(--color-S);
+    /* border: 3px solid var(--color-A); */
     height: 120px;
-    color: var(--color-S);
+    color: var(--color-A);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 20px;
 }

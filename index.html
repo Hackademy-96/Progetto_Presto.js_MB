@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Presto</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
     <!-- AoS CSS  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
@@ -14,36 +21,40 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
     <!-- navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top transition">
+    <nav id="navbar" class="fontMarker navbar navbar-expand-lg fixed-top transition">
         <div class="container-fluid">
-          <a class="navbar-brand color-a" href="#">Presto.it</a>
+          <a class="navbar-brand color-a " href="#"><img src="./media/Logo.png" alt=""width="30" height="30">Presto.it</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link color-y" aria-current="page" href="#">Home</a>
+                <a class="nav-link " aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link color-y" href="#">Annunci</a>
+                <a class="nav-link " href="#">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link color-y" href="#">About us</a>
+                <a class="nav-link " href="#">About us</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link color-y dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categorie
-                </a>
-                <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item color-y" href="#">Ultimi annunci</a></li>
-                  <li><a class="dropdown-item color-y" href="#">Tendenze</a></li>
-                  <li><a class="dropdown-item color-y" href="#">Sconti</a></li>
-                </ul>
+                 <a class="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                 </a>
+                 <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item color-y" href="#">What's NEW</a></li>
+                  <li><a class="dropdown-item color-y" href="#">Bevarages</a></li>
+                  <li><a class="dropdown-item color-y" href="#">Beers and Liquors</a></li>
+                  <li><a class="dropdown-item color-y" href="#">Sweet Snacks</a></li>
+                  <li><a class="dropdown-item color-y" href="#">Salted Snacks</a></li>
+                  <li><a class="dropdown-item color-y" href="#">Salted Snacks</a></li>
+                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link color-y" href="#">Contattaci</a>
+                 <a class="nav-link " href="#">Contacts us</a>
               </li>
             </ul>
             <ul class="navbar-nav">
@@ -57,71 +68,87 @@
           </div>
         </div>
     </nav>
+
     <!-- header -->
-    <header class="masthead container-fluid">
+    <header class="bgHeader container-fluid">
         <div class="row h-100 justify-content-evenly">
-            <div class="col-12 col-md-4 h100 d-flex flex-column justify-content-center align-items-center p-5">
-                <h1 class="color-a">Titolo Principale</h1>
-                <p class="color-a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eaque ipsa dicta ratione commodi consequatur quod blanditiis doloremque, quia, a hic! Recusandae, esse fugit sequi blanditiis dolorum deserunt voluptate vitae?</p>
-                <div>
-                    <button class="customB">COMPRA ORA</button>
-                    <button class="customB">ESPLORA</button>
+            <div class="col-12 col-md-5 h100 d-flex flex-column justify-content-center align-items-center p-5">
+                <h1 class="fontIndie color-a display-1 text-center">Little Tokyo Treats</h1>
+                <p class="color-a fontGaegu fs-4">Welcome to Little Tokyo Treats, your passport to a world of delectable Asian snacks and flavors! We've curated a treasure trove of handpicked delicacies that capture the essence of the bustling streets of Tokyo. From crispy tempura seaweed to melt-in-your-mouth mochi, every item in our collection is a celebration of authentic Asian taste.
+                </p>
+                <div class="my-5">
+                    <button class="fontIndie customButtonHeader customButtonHeader2 mx-2 ">BUY NOW</button>
+                    <button class="fontIndie customButtonHeader customButtonHeader2 mx-2">EXPLORE</button>
                 </div>
             </div>
             <div class="col-12 col-md-4 d-none d-md-flex h-100 flex-column justify-content-center align-items-center p-5">
-                <img class="w-100 h-50" src="https://picsum.photos/201" alt="">
+                <img class="Mascot" src="media/Mascot.jpg" alt="">
             </div>
         </div>
     </header>
+
+    <!-- frase -->
     <section class="sezioneFrase container-fluid text-center">
         <div class="row h-100">
             <div class="col-12 px-5 d-flex align-items-center h-100">
-                <h2 class="color-y">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora consequatur optio itaque tenetur aliquam voluptatem odit, debitis at autem temporibus. Qui vel corporis temporibus aperiam quia, delectus ex est sapiente.</h2>
+                <h2 class="fontIndie color-y text-center">Join us in this tasty adventure and let the flavors of Tokyo enchant your taste buds. Indulge in the magic of Little Tokyo Treats, where every bite is a taste of Japan's culinary heritage.</h2>
             </div>
         </div>
     </section>
+
+    <!-- cards -->
+    <section class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <h2 class="fontMarker color-s display-1 text-center border-bottom">WHAT'S NEW</h2>
+            </div>
+        </div>
+        <div id="cardWrapper" class="row justify-content-evenly"></div>
+    </section>
+
     <!-- categorie -->
     <section class="container-fluid">
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-12">
-                <h2 class="color-p display-1 text-center brd-bottom">CATEGORIE</h2>
+                <h2 class="fontMarker color-s display-1 text-center mb-0">CATEGORIES</h2>
             </div>
         </div>
         <div class="row justify-content-evenly bg-category">
             <div class="col-6 col-md-3 mx-2 my-5">
-                <img class="img-category" src="https://picsum.photos/200" alt="" data-aos="fade-right" data-aos-delay="100">
+                <img class="img-category" src="./media/ChipsBgS.jpg" alt="" data-aos="fade-right" data-aos-delay="100">
             </div>
             <div class="col-6 col-md-3 mx-2 my-5">
-                <img class="img-category" src="https://picsum.photos/201" alt="" data-aos="fade-right" data-aos-delay="300">
+                <img class="img-category" src="./media/PockyBgS.jpg" alt="" data-aos="fade-right" data-aos-delay="300">
             </div>
             <div class="col-6 col-md-3 mx-2 my-5">
-                <img class="img-category" src="https://picsum.photos/202" alt="" data-aos="fade-right" data-aos-delay="500">
+                <img class="img-category" src="./media/RamenBgS.jpg" alt="" data-aos="fade-right" data-aos-delay="500">
             </div>
             <div class="col-6 col-md-3 mx-2 my-5">
-                <img class="img-category" src="https://picsum.photos/203" alt="" data-aos="fade-left" data-aos-delay="700">
+                <img class="img-category" src="media/BevBgS.jpg" alt="" data-aos="fade-left" data-aos-delay="700">
             </div>
             <div class="col-6 col-md-3 mx-2 my-5">
-                <img class="img-category" src="https://picsum.photos/204" alt="" data-aos="fade-left" data-aos-delay="900">
+                <img class="img-category" src="media/AlcolBgS.jpg" alt="" data-aos="fade-left" data-aos-delay="900">
             </div>
             <div class="col-6 col-md-3 mx-2 my-5">
-                <img class="img-category" src="https://picsum.photos/205" alt="" data-aos="fade-left" data-aos-delay="1100">
+                <img class="img-category" src="/media/DiscountBgS.jpg" alt="" data-aos="fade-left" data-aos-delay="1100">
             </div>
         </div>
     </section>
+
     <!-- contatori -->
     <section class="container">
-        <div class="row justify-content-evenly">
-            <div class="col-12 col-md-3 boxNumbers">
-                <h4>Articoli:</h4>
-                <p><span id="articlesNumber">0</span>+</p>
+        <div class="row justify-content-evenly mt-5 ">
+            <div class="col-12 col-md-3 boxNumbers my-2">
+                <h4 class="fontMarker color-w border-bottom">Products Shipped</h4>
+                <p class="fontGaegu fs-3"><span id="articlesNumber">0</span>+</p>
             </div>
-            <div class="col-12 col-md-3 boxNumbers">
-                <h4>Utenti:</h4>
-                <p><span id="usersNumber">0</span>+</p>
+            <div class="col-12 col-md-3 boxNumbers my-2">
+                <h4 class="fontMarker color-w border-bottom">Products in Stock</h4>
+                <p class="fontGaegu fs-3"><span id="productsNumber">0</span>+</p>
             </div>
-            <div class="col-12 col-md-3 boxNumbers">
-                <h4>Prodotti Totali:</h4>
-                <p><span id="productsNumber">0</span>+</p>
+            <div class="col-12 col-md-3 boxNumbers my-2">
+                <h4 class="fontMarker color-w border-bottom">Happy customers</h4>
+                <p class="fontGaegu fs-3"><span id="usersNumber">0</span>+</p>
             </div>
         </div>
     </section>
