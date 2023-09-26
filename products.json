@@ -1,0 +1,121 @@
+[{
+    "id": 1,
+    "name": "Cocoa Mochi",
+    "category": "Sweet Snacks",
+    "price": 3.50,
+    "url": ""
+  }, {
+    "id": 2,
+    "name": "Sparkling Grape Soda",
+    "category": "Bevarages",
+    "price": 3.30,
+    "url": ""
+  }, {
+    "id": 3,
+    "name": "Matcha Milk Tea",
+    "category": "Bevarages",
+    "price": 3.00,
+    "url": ""
+  }, {
+    "id": 4,
+    "name": "Shrimp Cracker",
+    "category": "Salted Snacks",
+    "price": 4.50,
+    "url": ""
+  }, {
+    "id": 5,
+    "name": "Wasabi Potato Chips",
+    "category": "Salted Snacks",
+    "price": 2.90,
+    "url": ""
+  }, {
+    "id": 6,
+    "name": "Veggie Ramen",
+    "category": "Noodles & Ramen",
+    "price": 4.50,
+    "url": ""
+  }, {
+    "id": 7,
+    "name": "Chicken Ramen",
+    "category": "Noodles & Ramen",
+    "price": 5.00,
+    "url": ""
+  }, {
+    "id": 8,
+    "name": "Lemon Pocky",
+    "category": "Sweet Snacks",
+    "price": 8,
+    "url": ""
+  }, {
+    "id": 9,
+    "name": "Caramel Kitkat",
+    "category": "Sweet Snacks",
+    "price": 7.50,
+    "url": ""
+  }, {
+    "id": 10,
+    "name": "Ukiyo Rice Vodka",
+    "category": "Beers and Liquors",
+    "price": 36.80,
+    "url": ""
+  }, {
+    "id": 11,
+    "name": "Gin Mashiro Okinawa",
+    "category": "Beers and Liquors",
+    "price": 40.00,
+    "url": ""
+  }, {
+    "id": 12,
+    "name": "Kirin Ichiban Beer",
+    "category": "Beers and Liquors",
+    "price": 2.90,
+    "url": ""
+  }, {
+    "id": 13,
+    "name": "Asahi Beer",
+    "category": "Beers and Liquors",
+    "price": 3.00,
+    "url": ""
+  }, {
+    "id": 14,
+    "name": "Tonkotsu Ramen",
+    "category": "Noodles & Ramen",
+    "price": 5.00,
+    "url": ""
+  }, {
+    "id": 15,
+    "name": "Chuka Soba Noodles",
+    "category": "Noodles & Ramen",
+    "price": 6.90,
+    "url": ""
+  }, {
+    "id": 16,
+    "name": "Mango Mochi",
+    "category": "Sweet Snacks",
+    "price": 4.00,
+    "url": ""
+  }, {
+    "id": 17,
+    "name": "Tea Oolong",
+    "category": "Bevarages",
+    "price": 3.00,
+    "url": ""
+  }, {
+    "id": 18,
+    "name": "Sakura Cola",
+    "category": "Bevarages",
+    "price": 4.80,
+    "url": ""
+  }, {
+    "id": 19,
+    "name": "Umeboshi Potato Chips",
+    "category": "Salted Snacks",
+    "price": 2.90,
+    "url": ""
+  }, {
+    "id": 20,
+    "name": "Teriyaki Potato Chips",
+    "category": "Salted Snacks",
+    "price": 2.90,
+    "url": ""
+  }]

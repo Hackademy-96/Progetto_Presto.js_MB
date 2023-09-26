@@ -11,6 +11,9 @@
 .color-p{
     color: var(--color-P);
 }
+.bg-p{
+    background-color: var(--color-P);
+}
 .color-s{
     color: var(--color-S);
 }
